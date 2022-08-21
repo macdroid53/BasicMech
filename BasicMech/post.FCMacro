@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import os 
 import FreeCAD
+from PySide2 import QtGui, QtCore, QtWidgets
+
 param_grp=FreeCAD.ParamGet("User parameter:BaseApp/Preferences/General")
 param_grp.SetString("AutoloadModule", "PartDesignWorkbench")
 param_grp=FreeCAD.ParamGet("User parameter:Tux/PersistentToolbars/User/StartWorkbench")
@@ -19,3 +21,7 @@ param_grp=FreeCAD.ParamGet("User parameter:BaseApp/MainWindow/DockWindows")
 param_grp.SetBool("Std_ReportView", True)
 param_grp.SetBool("Std_PythonView", True)
 
+msg="Select only one point/vertex!"
+diag = QtWidgets.QMessageBox(QtWidgets.QMessageBox.Warning, 'Error MessageBox', msg)
+diag.setWindowModality(QtCore.Qt.ApplicationModal)
+diag.exec_()
