@@ -22,6 +22,6 @@ param_grp.SetBool("Std_ReportView", True)
 param_grp.SetBool("Std_PythonView", True)
 
 msg="To complete the changes, restart FreeCAD!"
-diag = QtWidgets.QMessageBox(QtWidgets.QMessageBox.Warning, 'Restart Required', msg)
+diag = QtWidgets.QMessageBox(QtWidgets.QMessageBox.Information, 'Restart Required', msg)
 diag.setWindowModality(QtCore.Qt.ApplicationModal)
 diag.exec_()
