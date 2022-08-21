@@ -5,7 +5,7 @@
   <version>0.0.1</version>
   <maintainer email="macdroid53@gmail.com">drmacro</maintainer>
   <license file="LICENSE">MIT</license>
-  <url type="repository" branch="master">https://github.com/macdroid53/BasicMech.git</url>
+  <url type="repository" branch="main">https://github.com/macdroid53/BasicMech.git</url>
   <icon>resources/icons/freecad.svg</icon>
 
   <content>
