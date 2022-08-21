@@ -21,7 +21,7 @@ param_grp=FreeCAD.ParamGet("User parameter:BaseApp/MainWindow/DockWindows")
 param_grp.SetBool("Std_ReportView", True)
 param_grp.SetBool("Std_PythonView", True)
 
-msg="Select only one point/vertex!"
-diag = QtWidgets.QMessageBox(QtWidgets.QMessageBox.Warning, 'Error MessageBox', msg)
+msg="To complete the changes, restart FreeCAD!"
+diag = QtWidgets.QMessageBox(QtWidgets.QMessageBox.Warning, 'Restart Required', msg)
 diag.setWindowModality(QtCore.Qt.ApplicationModal)
 diag.exec_()
