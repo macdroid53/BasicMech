@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+import os 
+import FreeCAD
+param_grp=FreeCAD.ParamGet("User parameter:BaseApp/Preferences/General")
+param_grp.SetString("AutoloadModule", "PartDesignWorkbench")
+param_grp=FreeCAD.ParamGet("User parameter:Tux/PersistentToolbars/User/StartWorkbench")
+param_grp.SetBool("Saved",True)
+param_grp.SetString("Top", "Workbench,Macro,Break,View,Structure,Navigation")
+param_grp.SetString("Left", "File")
+param_grp.SetString("Right", "")
+param_grp.SetString("Bottom", "")
+param_grp=FreeCAD.ParamGet("User parameter:Tux/PersistentToolbars/User/PartDesignWorkbench")
+param_grp.SetBool("Saved",True)
+param_grp.SetString("Top", "Workbench,Macro,Break,View,Structure,Navigation")
+param_grp.SetString("Left", "File")
+param_grp.SetString("Right", "")
+param_grp.SetString("Bottom", "")
+param_grp=FreeCAD.ParamGet("User parameter:BaseApp/MainWindow/DockWindows")
+param_grp.SetBool("Std_ReportView", True)
+param_grp.SetBool("Std_PythonView", True)
+
