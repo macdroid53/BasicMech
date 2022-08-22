@@ -15,6 +15,7 @@
       <tag>color</tag>
       <tag>dark</tag>
       <tag>mechanical</tag>
+      <depend>Glass</depend>
     </preferencepack>
   </content>
 
