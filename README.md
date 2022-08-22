@@ -1,12 +1,23 @@
 # BasicMech
-![Colours](resources/icons/BasicMech.png)
 
-FreeCAD Preferance Pack providing UI configuration for basic mechanical design for [FreeCAD](https://www.freecadweb.org)
+![screenshot](/screenshot.png)
 
-> A dark theme for [FreeCAD](https://www.freecadweb.org).
+A dark theme for [FreeCAD](https://www.freecad.org).
 
-![Screenshot](./screenshot.png)
+FreeCAD [Preference Pack](https://wiki.freecad.org/Preference_Packs) providing UI configuration for basic mechanical design for [FreeCAD](https://www.freecad.org)
+
+
+## Screenshots
+
 
 ## Install
 
-All instructions can be found at [TBD]).
+To be available soon via the FreeCAD [Addon Manager](https://wiki.freecad.org/AddonManager).
+
+## Development
+
+Created by [@macdroid53](https://github.com/macdroid53) (AKA drmacro on the FreeCAD forum). 
+
+## License
+
+MIT [LICENSE](LICENSE)
