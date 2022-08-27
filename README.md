@@ -1,4 +1,4 @@
-# BasicMech
+# BasicMech *(Work In Progress)*
 
 ![screenshot](/screenshot.png)
 
